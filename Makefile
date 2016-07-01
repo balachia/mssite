@@ -2,19 +2,22 @@
 all:
 	make clean && make build
 
+debug:
+	make clean && DEBUG=metalsmith:* make build
+
 clean:
 	rm -rf build
 
-site: build/
+deploy: build
+	bin/deploy.sh
+
+site: build
 	static-server build
 
 build: node_modules
 	node index.js
 
-debug: node_modules
-	DEBUG=metalsmith:* make build
-
 node_modules: package.json
 	npm install
 
-.PHONY: build clean site debug
+.PHONY: all build clean site debug deploy

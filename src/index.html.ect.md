@@ -21,16 +21,16 @@ link: 'index.html'
 PhD student in Macro Organizational Behavior at the Stanford Graduate School of Business.
 </p>
 
-I study social networks, organization theory, and the ways groups make sense of
-the worlds they operate in. I work through quantitative sociology and
-mathematical modeling.
+I study innovation, market categories, and the ways groups and organizations
+navigate the boundaries of the worlds the operate in. I work through
+quantitative sociology and mathematical modeling.
 
 On occasion, I [code](http://github.com/balachia) things up. Sometimes, I bike a
 little.
 
 Get in touch at
-[LinkedIn](http://www.linkedin.com/pub/tony-vashevko/53/58a/84a/), or vashevko
-[at] stanford [dot] edu.
+[vashevko@stanford.edu](mailto:vashevko@stanford.edu) or
+[LinkedIn](http://www.linkedin.com/pub/tony-vashevko/53/58a/84a/).
 
 </div>
 </div>
