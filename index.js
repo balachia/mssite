@@ -24,6 +24,12 @@ var each = require('metalsmith-each');
 
 Metalsmith(__dirname)
     .metadata({
+        site: {
+            title: "Tony Vashevko",
+            description: "PhD candidate in macro organizational behavior at Stanford GSB. Studying innovation, market categories, strategy.",
+            author: "Tony Vashevko",
+            keywords: "anthony,tony,vashevko,stanford,gsb,organizational,behavior,innovation,entrepreneurship,strategy"
+        },
         title: "Tony Vashevko",
         description: "It's about saying »Hello« to the World.",
         generator: "Metalsmith",

@@ -34,6 +34,15 @@ $navbar-color-hover: scale_color($navbar-color, $lightness: -20%);
     &.active {
         border-bottom: rem-calc(1) solid $primary-color;
     }
+
+    &.brand {
+        font-weight: 500;
+        font-size: 125%;
+        &:hover {
+            color: $navbar-color;
+            border-bottom: none;
+        }
+    }
 }
 
 // skinnier fonts
@@ -46,10 +55,10 @@ $navbar-color-hover: scale_color($navbar-color, $lightness: -20%);
     }
 }
 
-#brand {
-    font-weight: 500;
-    font-size: 125%;
-}
+/*#brand {*/
+/*    font-weight: 500;*/
+/*    font-size: 125%;*/
+/*}*/
 
 // better space separation for top headings on small screens
 h1, h2, h3 {
