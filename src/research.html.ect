@@ -1,0 +1,135 @@
+---
+layout: layouts/default.ect
+title: Research
+collection: nav
+navOrder: 2
+link: 'research.html'
+allpapers:
+    -   name: "working papers"
+        papers:
+            -   title: "Does the Middle Conform or Compete? Risk and Quality Thresholds Predict the Locus of Innovation"
+                authors: Anthony Vashevko
+                link: "files/vashevko-jmp.pdf"
+                abstract: "
+
+                    The middle-status conformity argument contends that actors
+                    in the middle of a status hierarchy fear falling below the
+                    standards of their audience and hence conform to prevailing
+                    behavior. On the other hand, arguments from economic theory
+                    suggest that competition in the middle of the pack creates
+                    the strongest pressure to innovate to escape the churn.
+                    This paper argues that two features of markets can
+                    rationalize the tension between these ideas: In vertically
+                    differentiated markets, actors must balance the risks of
+                    innovation against the quality thresholds imposed by their
+                    audience. Risks can vary in their expected value.
+                    Thresholds – the minimum quality standards set by consumers
+                    and stakeholders – may be fixed or may respond to producer
+                    offers, so that success by lower-quality competitors can
+                    threaten actors above the cutoff. The presence of
+                    thresholds warps the risks and returns to innovation.
+                    Combinations of these two features generate a typology of
+                    innovation in markets, predicting which actors in a market
+                    will choose to do so. A model formalizes these results and
+                    illustrates them in simulation.
+
+                "
+            -   title: "Pay Attention: Object Consideration as a Mechanism of Network Diffusion"
+                authors: Anthony Vashevko
+                link: "http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2641612"
+                abstract: "
+
+                    Theories of diffusion in networks rely on two broad classes
+                    of mechanisms: social influence directs the flow of
+                    information, and influence affects object valuation. This
+                    paper proposes an integrated model of decision-making for
+                    the adoption process. This model reveals a neglected middle
+                    step between information and valuation: social influence
+                    affects whether agents consider a particular object as
+                    relevant to the adoption decision. I identify this
+                    attention-driving mechanism using data on traders in an
+                    online foreign exchange platform. Features of the setting
+                    exclude the possibility of information- or valuation-driven
+                    diffusion, but traders still adopt one another’s trading
+                    behaviors, and they do so most for those rare behaviors
+                    that lack external drivers of attention. I discuss the
+                    importance of attention- driven diffusion for future work
+                    and the value of an integrated decision model in
+                    delineating conditions under which existing theories of
+                    influence apply.
+
+                "
+            -   title: "Network Boundedness as Market Identity: Evidence from the Film Industry"
+                authors: Amir Goldberg & Anthony Vashevko
+                link: "https://web.stanford.edu/~amirgo/docs/boundedness.pdf"
+                abstract: "
+
+                    Network scholars have studied organizational creativity
+                    predominantly as a problem of acquiring and integrating
+                    information. In contrast, we re-conceptualize the
+                    structural tradeoff between brokerage and closure as an
+                    identity signal. With Hollywood as our empirical setting,
+                    we demonstrate that consumer perceptions of films are
+                    structured by a strong status hierarchy, and that
+                    boundedness - the extent to which a film's production team
+                    comprises an exclusive clique within the network of
+                    interpersonal collaborations in the film industry - serves
+                    as a signal of artistic quality. We draw on a uniquely
+                    detailed dataset of consumer preferences, and take
+                    advantage of the lag between film production and consumer
+                    evaluation as a means to demonstrate that production team
+                    members' career trajectories after a film had been produced
+                    have a bearing on audiences' evaluations. Films whose team
+                    members went on to collaborate in exclusive circles and
+                    thereby, we argue, establishing a high-status identity,
+                    tend to enjoy greater post-hoc artistic appreciation than
+                    at the time of their release.
+
+                "
+    -   name: "published"
+        papers:
+            -   title: "Dynamic Models of Communication in an Online Friendship Network"
+                authors: Brooke Foucault Welles, Anthony Vashevko, Nick Bennett & Noshir Contractor
+                link: "http://www.tandfonline.com/doi/abs/10.1080/19312458.2014.967843#.Vcf7vRNViko"
+                abstract: "
+
+                    In this article, we argue for the usefulness of relational
+                    event network analysis to study online communication
+                    networks. Unlike other network analytic techniques that
+                    require online communication data to be summarized prior to
+                    analysis, relational event network analysis uses
+                    un-summarized time-stamped data to track the dynamic
+                    evolution of communication networks. To illustrate, we use
+                    relational event network analysis to analyze the evolution
+                    of a communication network within the virtual world Second
+                    Life. Results suggest that there are different patterns of
+                    communication among nonfriends and friends within the
+                    network. Nonfriends tend to communicate with those they
+                    have communicated with in the past, reciprocate
+                    communication, and close communication triads. Friends tend
+                    not to communicate with those they have communicated with
+                    in the past, instead preferring to reciprocate
+                    communication and close triads. We discuss implications for
+                    the study of online communication and identify directions
+                    for future research using relational event network
+                    analysis.
+
+                "
+---
+
+<% for pclass in @allpapers: %>
+<div class="row">
+    <div class="medium-3 large-2 columns">
+        <h3><%= pclass.name %></h3>
+    </div>
+    <div class="medium-8 large-6 columns end">
+    <h3 class="show-for-medium"></h3>
+    <% for paper in pclass.papers: %>
+        <h5><a target="_blank" href= <%- paper.link %>><strong><%= paper.title %></strong></a></h5>
+        <p><em> <%= paper.authors %> </em></p>
+        <p> <%= paper.abstract %> </p>
+        <% end %>
+    </div>
+</div>
+<% end %>
+
