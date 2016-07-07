@@ -64,39 +64,42 @@ $navbar-color-hover: scale_color($navbar-color, $lightness: -20%);
 h1, h2, h3 {
     overflow: hidden;
     //centered
-    /*text-align: center;*/
+    text-align: center;
     // right align
     /*text-align: right;*/
 
-    &:after, /*&:before*/ {
+    &:after, &:before {
         background-color: $light-gray;
         content: "";
         display: inline-block;
         height: rem-calc(2);
         position: relative;
         vertical-align: middle;
-        width: 100%;
+        width: 50%;
 
         // left align
-        left: 0.5rem;
-        margin-right: -100%;
+        /*left: 0.5rem;*/
+        /*margin-right: -100%;*/
         // right align
         /*right: 0.5rem;*/
         /*margin-left: -100%;*/
     }
     // centered
-    /*&:before {*/
-    /*    right: 0.5em;*/
-    /*    margin-left: -50%;*/
-    /*}*/
-    /*&:after {*/
-    /*    left: 0.5em;*/
-    /*    margin-right: -100%;*/
-    /*}*/
+    &:before {
+        right: 0.5em;
+        margin-left: -50%;
+    }
+    &:after {
+        left: 0.5em;
+        margin-right: -50%;
+    }
     /*border-bottom: rem-calc(3) solid $light-gray;*/
 
     @include breakpoint(medium) {
         &:after {
+            content: none;
+        }
+        &:before {
             content: none;
         }
     }

@@ -18,7 +18,8 @@ var partials = require('metalsmith-jstransformer-partials');
 //var paths = require('metalsmith-paths');
 //var renamer = require('metalsmith-renamer');
 var each = require('metalsmith-each');
-
+var concat = require('metalsmith-concat-convention');
+var cleanCSS = require('metalsmith-clean-css');
 
 
 
@@ -41,11 +42,13 @@ Metalsmith(__dirname)
     .use(metafiles())
     //.use(ignore('layouts/*','partials/*'))
     .use(assets({ src:'public', dest: '.' }))
+    .use(cleanCSS())
     .use(sass({
-        outputStyle:'expanded',
+        outputStyle:'compressed',
         sourceMap: true,
         sourceMapContents: true
     }))
+    .use(concat({ extname: '.concat' }))
     //.use(debug())
     .use(debug())
     .use(pandoc({
