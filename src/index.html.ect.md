@@ -18,7 +18,7 @@ link: 'index.html'
 <h3 class="show-for-medium"></h3>
 
 <p class="lead">
-PhD student in Macro Organizational Behavior at the Stanford Graduate School of Business.
+PhD candidate in Macro Organizational Behavior at the Stanford Graduate School of Business.
 </p>
 
 I study innovation, market categories, and the ways groups and organizations
