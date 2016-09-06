@@ -22,7 +22,7 @@ PhD candidate in Macro Organizational Behavior at the Stanford Graduate School o
 </p>
 
 I study innovation, market categories, and the ways groups and organizations
-navigate the boundaries of the worlds the operate in. I work through
+navigate the boundaries of the worlds they operate in. I work through
 quantitative sociology and mathematical modeling.
 
 On occasion, I [code](http://github.com/balachia) things up. Sometimes, I bike a

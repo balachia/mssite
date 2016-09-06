@@ -10,6 +10,7 @@ allpapers:
             -   title: "Does the Middle Conform or Compete? Risk and Quality Thresholds Predict the Locus of Innovation"
                 authors: Anthony Vashevko (Job Market Paper)
                 link: "files/vashevko-jmp.pdf"
+                id: msc
                 abstract: "
 
                     The middle-status conformity argument contends that actors
@@ -125,7 +126,9 @@ allpapers:
     <div class="medium-8 large-6 columns end">
     <h3 class="show-for-medium"></h3>
     <% for paper in pclass.papers: %>
-        <h5><a target="_blank" href= <%- paper.link %>><strong><%= paper.title %></strong></a></h5>
+        <h5<%- " id=\"" + paper.id + "\"" if paper.id? %>>
+            <a target="_blank" href= <%- paper.link %>><strong><%= paper.title %></strong></a>
+        </h5>
         <p><em> <%= paper.authors %> </em></p>
         <p> <%= paper.abstract %> </p>
         <% end %>
