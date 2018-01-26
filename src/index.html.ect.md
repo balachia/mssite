@@ -18,18 +18,19 @@ link: 'index.html'
 <h3 class="show-for-medium"></h3>
 
 <p class="lead">
-PhD candidate in Macro Organizational Behavior at the Stanford Graduate School of Business.
+Postdoctoral Fellow with the [GPN@NUS](http://gpn.nus.edu.sg)
 </p>
 
-I study innovation, market categories, and the ways groups and organizations
-navigate the boundaries of the worlds they operate in. I work through
-quantitative sociology and mathematical modeling.
+My research is in organizational theory and strategy. I study organizational
+innovation, market categories, and the ways groups and organizations navigate
+the boundaries of the worlds they operate in. I work through quantitative
+sociology and mathematical modeling.
 
 On occasion, I [code](http://github.com/balachia) things up. Sometimes, I bike a
 little.
 
-Get in touch at
-[vashevko@stanford.edu](mailto:vashevko@stanford.edu) or
+Get in touch (formally) at [socamv@nus.edu.sg](mailto:socamv@nus.edu.sg),
+(informally) at [avashevko@gmail.com](mailto:avashevko@gmail.com), or
 [LinkedIn](http://www.linkedin.com/pub/tony-vashevko/53/58a/84a/).
 
 </div>

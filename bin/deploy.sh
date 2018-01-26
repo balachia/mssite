@@ -19,7 +19,8 @@ done
 DIR="$( cd "$( dirname $( dirname "$0" ) )" && pwd)"
 source "$DIR/.env"
 
-DEPLOY_SITE="https://www.stanford.edu/~vashevko"
+#DEPLOY_SITE="https://www.stanford.edu/~vashevko"
+DEPLOY_SITE="nslh"
 
 echo "Deploying ${DIR}/${DEPLOY_SOURCE_DIR} to ${DEPLOY_ACCOUNT}@${DEPLOY_SERVER}:${DEPLOY_DEST_DIR}"
  

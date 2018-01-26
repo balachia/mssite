@@ -27,9 +27,9 @@ Metalsmith(__dirname)
     .metadata({
         site: {
             title: "Tony Vashevko",
-            description: "PhD candidate in macro organizational behavior at Stanford GSB. Studying innovation, market categories, strategy.",
+            description: "Postdoc with GPN@NUS. Studying innovation, market categories, networks, strategy.",
             author: "Tony Vashevko",
-            keywords: "anthony,tony,vashevko,stanford,gsb,organizational,behavior,innovation,entrepreneurship,strategy"
+            keywords: "anthony,tony,vashevko,nus,stanford,gsb,organizational,behavior,innovation,entrepreneurship,strategy"
         },
         title: "Tony Vashevko",
         description: "It's about saying »Hello« to the World.",

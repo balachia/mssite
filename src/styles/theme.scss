@@ -25,6 +25,7 @@ $navbar-color-hover: scale_color($navbar-color, $lightness: -20%);
 
 .menu li a {
     color: $navbar-color;
+    border-bottom: rem-calc(1) solid $light-gray;
 
     &:hover {
         color: $navbar-color-hover;
