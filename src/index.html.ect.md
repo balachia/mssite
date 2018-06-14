@@ -10,11 +10,11 @@ link: 'index.html'
 <img src="images/leader-sm.jpg" alt="US-212" style="border-radius:0.5rem;">
 </div>
 <br>
-<div class="row">
-<div class="medium-3 large-2 columns">
+<div class="grid-x grid-margin-x">
+<div class="cell medium-3 large-2">
 ### about
 </div>
-<div class="medium-8 large-6 columns end">
+<div class="cell medium-8 large-6">
 <h3 class="show-for-medium"></h3>
 
 <p class="lead">

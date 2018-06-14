@@ -11,8 +11,7 @@ allpapers:
                 authors: Anthony Vashevko (invited for minor revision, Organization Science)
                 link: "https://osf.io/preprints/socarxiv/rcsjn/"
                 id: msc
-                abstract: "
-
+                abstract: |
                     Where does innovation come from? This research models
                     producer incentives to innovate with a focus on the role of
                     audiences in constructing quality thresholds within
@@ -28,13 +27,10 @@ allpapers:
                     threshold in a market, from both, or from nowhere. Such
                     predictions generalize and simplify several existing
                     organizational theories of innovation.
-
-                "
             -   title: "Producer Exploration can Generate Categories without Audiences"
                 authors: Anthony Vashevko
                 link: "https://osf.io/preprints/socarxiv/af8rt"
-                abstract: "
-
+                abstract: |
                     Category theory argues that markets function as an interface between
                     producer candidates and audiences that evaluate those candidates. Audiences
                     lump similar producer into categories in order to facilitate their search
@@ -53,13 +49,10 @@ allpapers:
                     such any apparent category spanning discount is nothing more than the
                     consequence of bad luck in the process of taking risk. I establish this
                     result in a formal model and illustrate in simulations.
-
-                "
             -   title: "Pay Attention: Object Consideration as a Mechanism of Network Diffusion"
                 authors: Anthony Vashevko
                 link: "https://osf.io/preprints/socarxiv/w8a4t/"
-                abstract: "
-
+                abstract: |
                     Theories of diffusion in networks rely on two broad classes
                     of mechanisms: social influence directs the flow of
                     information, and influence affects object valuation. This
@@ -78,13 +71,10 @@ allpapers:
                     and the value of an integrated decision model in
                     delineating conditions under which existing theories of
                     influence apply.
-
-                "
             -   title: "Network Boundedness as Market Identity: Evidence from the Film Industry"
                 authors: Amir Goldberg & Anthony Vashevko
                 link: "https://web.stanford.edu/~amirgo/docs/boundedness.pdf"
-                abstract: "
-
+                abstract: |
                     Network scholars have studied organizational creativity
                     predominantly as a problem of acquiring and integrating
                     information. In contrast, we re-conceptualize the
@@ -105,14 +95,12 @@ allpapers:
                     thereby, we argue, establishing a high-status identity,
                     tend to enjoy greater post-hoc artistic appreciation than
                     at the time of their release.
-
-                "
     -   name: "published"
         papers:
             -   title: "Dynamic Models of Communication in an Online Friendship Network"
                 authors: Brooke Foucault Welles, Anthony Vashevko, Nick Bennett & Noshir Contractor
                 link: "http://www.tandfonline.com/doi/abs/10.1080/19312458.2014.967843#.Vcf7vRNViko"
-                abstract: "
+                abstract: |
 
                     In this article, we argue for the usefulness of relational
                     event network analysis to study online communication
@@ -134,16 +122,14 @@ allpapers:
                     the study of online communication and identify directions
                     for future research using relational event network
                     analysis.
-
-                "
 ---
 
 <% for pclass in @allpapers: %>
-<div class="row">
-    <div class="medium-3 large-2 columns">
+<div class="grid-x grid-margin-x">
+    <div class="cell medium-3 large-2">
         <h3><%= pclass.name %></h3>
     </div>
-    <div class="medium-8 large-6 columns end">
+    <div class="cell medium-8 large-6">
     <h3 class="show-for-medium"></h3>
     <% for paper in pclass.papers: %>
         <h5<%- " id=\"" + paper.id + "\"" if paper.id? %>>

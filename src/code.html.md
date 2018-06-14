@@ -6,12 +6,12 @@ navOrder: 3
 link: 'code.html'
 ---
 
-<div class="row">
-<div class="medium-3 large-2 columns">
+<div class="grid-x grid-margin-x">
+<div class="cell medium-3 large-2">
 ### renm
 </div>
 
-<div class="medium-8 large-6 columns end">
+<div class="cell medium-8 large-6">
 <h3 class="show-for-medium"></h3>
 
 Relational event network models (RENM) attempt to model the flow of events
@@ -42,12 +42,12 @@ Standalone software [Visone](http://www.visone.info/)
 
 </div>
 </div>
-<div class="row">
-<div class="medium-3 large-2 columns">
+<div class="grid-x grid-margin-x">
+<div class="cell medium-3 large-2">
 ### pano.py
 </div>
 
-<div class="medium-8 large-6 columns end">
+<div class="cell medium-8 large-6">
 <h3 class="show-for-medium"></h3>
 
 [*panopy*](https://github.com/balachia/panopy) is a workflow automation wrapper
