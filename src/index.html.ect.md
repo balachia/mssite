@@ -18,7 +18,7 @@ link: 'index.html'
 <h3 class="show-for-medium"></h3>
 
 <p class="lead">
-Postdoctoral Fellow with the [GPN@NUS](https://gpn.nus.edu.sg)
+Postdoctoral Fellow at the [ESSEC Business School, Singapore](http://www.essec.edu/en/essec-asia-pacific-en/)
 </p>
 
 My research is in organizational theory and strategy. I focus on organizational
@@ -28,7 +28,7 @@ mathematical modeling, computational sociology, and network analysis.
 On occasion, I [code](https://github.com/balachia) things up. Sometimes, I bike a
 little.
 
-Get in touch (formally) at [socamv@nus.edu.sg](mailto:socamv@nus.edu.sg),
+Get in touch (formally) at [vashevko@essec.edu](mailto:vashevko@essec.edu),
 (informally) at [avashevko@gmail.com](mailto:avashevko@gmail.com), or
 [LinkedIn](https://www.linkedin.com/pub/tony-vashevko/53/58a/84a/).
 

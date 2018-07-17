@@ -6,6 +6,7 @@ navOrder: 2
 link: 'research.html'
 allpapers:
     -   name: "working papers"
+        order: 1
         papers:
             -   title: "Does the Middle Conform or Compete? Quality Thresholds Predict the Locus of Innovation"
                 authors: Anthony Vashevko (accepted, Organization Science)
@@ -96,6 +97,7 @@ allpapers:
                     tend to enjoy greater post-hoc artistic appreciation than
                     at the time of their release.
     -   name: "published"
+        order: 2
         papers:
             -   title: "Dynamic Models of Communication in an Online Friendship Network"
                 authors: Brooke Foucault Welles, Anthony Vashevko, Nick Bennett & Noshir Contractor
@@ -146,7 +148,7 @@ allpapers:
                     decomposition.
 ---
 
-<% for pclass in @allpapers: %>
+<% for pclass in (@allpapers.sort (a,b) -> a.order - b.order): %>
 <div class="grid-x grid-margin-x">
     <div class="cell medium-3 large-2">
         <h3><%= pclass.name %></h3>
