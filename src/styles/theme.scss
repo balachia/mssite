@@ -41,7 +41,7 @@ $navbar-color-hover: scale_color($navbar-color, $lightness: -20%);
         font-size: 125%;
         &:hover {
             color: $navbar-color;
-            border-bottom: none;
+            border-bottom-color: $light-gray;
         }
     }
 }
