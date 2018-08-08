@@ -2,7 +2,7 @@
     "title": "CV",
     "collection": "nav",
     "navOrder": 4,
-    "link": "files/vashevko-cv.pdf",
+    "link": "/files/vashevko-cv.pdf",
     "onclick": "externalView(this);"
 }
 

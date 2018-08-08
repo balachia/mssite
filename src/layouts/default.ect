@@ -14,10 +14,10 @@
 
         <!--<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:300,300italic,400,400italic,700,700italic,200,500,100">-->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:200,400,400italic,500,700">
-        <link rel="stylesheet" href="<%= @rootPath %>styles/normalize.css">
-        <link rel="stylesheet" href="<%= @rootPath %>styles/main.css">
-        <link rel="stylesheet" href="<%= @rootPath %>styles/theme.css">
-        <script async src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <link rel="stylesheet" href="/styles/normalize.css">
+        <link rel="stylesheet" href="/styles/main.css">
+        <link rel="stylesheet" href="/styles/theme.css">
+        <script async src="/js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -31,14 +31,14 @@
                     <ul class="menu">
                         <!--<li id="brand" class="menu-text">Tony Vashevko</li>-->
                         <li>
-                            <a class="brand" href="<%= @rootPath %>/">Tony Vashevko</a>
+                            <a class="brand" href="/">Tony Vashevko</a>
                         </li>
                     </ul>
                 </div>
                 <div class="top-bar-right">
                     <ul class="menu">
                         <% for doc in @nav: %>
-                        <li><a href="<%= @rootPath %><%= doc.link %>"
+                        <li><a href="<%= doc.link %>"
                                 <% if @link is doc.link: %> class="active"<% end %>
                                 <% if doc.onclick: %> onclick="<%- doc.onclick %>"<% end %>>
                             <%= doc.title %>

@@ -27,9 +27,9 @@ Metalsmith(__dirname)
     .metadata({
         site: {
             title: "Tony Vashevko",
-            description: "Postdoc with GPN@NUS. Studying innovation, market categories, networks, strategy.",
+            description: "Postdoc at ESSEC Singapore. Studying innovation, market categories, networks, strategy.",
             author: "Tony Vashevko",
-            keywords: "anthony,tony,vashevko,nus,stanford,gsb,organizational,behavior,innovation,entrepreneurship,strategy"
+            keywords: "anthony,tony,vashevko,essec,nus,stanford,gsb,organizational,behavior,innovation,entrepreneurship,strategy"
         },
         title: "Tony Vashevko",
         description: "It's about saying »Hello« to the World.",
@@ -75,9 +75,12 @@ Metalsmith(__dirname)
             }
         } 
     ))
+    //.use(permalinks({
+    //    relative: true,
+    //    pattern: ':title'
+    //}))
     .use(debug())
-    //.use(permalinks({ relative: false }))
-    .use(rootPath())
+    //.use(rootPath())
     //.use(paths({
         //property: "paths",
         //directoryIndex: "index.html"
@@ -106,6 +109,10 @@ Metalsmith(__dirname)
     .use(jstransformer({
         'layoutPattern': 'layouts/**',
         'defaultLayout': null
+    }))
+    .use(permalinks({
+        relative: false,
+        pattern: ':path'
     }))
     .build(function(err, files) {
         if (err) { throw err; }

@@ -3,7 +3,7 @@ layout: layouts/default.ect
 title: Code
 collection: nav
 navOrder: 3
-link: 'code.html'
+link: '/code'
 ---
 
 <div class="grid-x grid-margin-x">

@@ -3,7 +3,8 @@ layout: layouts/default.ect
 title: Home
 collection: nav
 navOrder: 1
-link: 'index.html'
+link: '/'
+permalink: false
 ---
 
 <div class="row">
