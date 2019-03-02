@@ -19,8 +19,11 @@ permalink: false
 <h3 class="show-for-medium"></h3>
 
 <p class="lead">
-Postdoctoral Fellow at the [ESSEC Business School, Singapore](http://www.essec.edu/en/essec-asia-pacific-en/)
+Postdoctoral Fellow at the [ESSEC Business School,
+Singapore](http://www.essec.edu/en/essec-asia-pacific-en/)
 </p>
+
+**Fall 2019: Assistant Professor of Organizational Behavior at INSEAD**
 
 My research is in organizational theory and strategy. I focus on organizational
 innovation, market categories, and organizational networks. My work involves
